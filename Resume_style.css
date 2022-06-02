@@ -1,0 +1,63 @@
+html {
+	background-color: Salmon;
+}
+
+body {
+	margin: 3vh 20vw;
+	padding: 3vh 5vw;
+	background-color: white;
+	border: 1px solid black;
+
+}
+
+#ContentBody {
+	
+}
+
+h1 {
+	font-weight: Bold;
+	
+}
+
+h2 {
+	font-weight: Bold;
+	text-decoration: underline;
+}
+
+h3 {
+	font-weight: Bold;
+	
+}
+
+#Skills {
+	margin: auto;
+	width: 85%;
+}
+
+#Skills th {
+	border-bottom: 3px dotted black;
+}
+
+#Education {
+	width: 100%;
+}
+
+#Education td {
+	font-size: 18px;
+}
+
+header {
+	text-align: center;
+}
+
+footer {
+	text-align: center;
+	font-size: 12px;
+	color: black;
+	margin-bottom: 5vh;
+}
+
+.WorkDate {
+	font-size: 18px;
+	margin-top: -20px;
+}

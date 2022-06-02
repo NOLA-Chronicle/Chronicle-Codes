@@ -1,18 +1,30 @@
 html {
-	background-color: gray
+	background-color: Salmon;
+}
+
+body {
+	background-color: inherit;
 }
 
 #PageTitle {
 	font-family: Times New Roman;
 	font-size: 50px;
-	border-bottom: 1px solid black;
 	text-align: center;
 }
 
-#NavBar {
+#NavBarContainer {
 	position: sticky;
 	top: 0;
+	background-color: inherit;
+}
+
+#NavBar {
 	text-align: center;
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 1vh;
+
 }
 
 #NavBar li {
@@ -21,14 +33,48 @@ html {
 	background-color: white;
 	width: 8em;
 	height: 3em;
+	margin-left: 5px;
+	margin-right: 5px;
 	text-align: center;
 	font-weight: bold;
+	box-shadow: 0 9px #999;
+	border-radius: 5px;
+}
+
+#NavBar li:hover a{
+	color: red;
+}
+
+#NavBar li:active {
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+#NavBar li a {
+	text-decoration: none;
+	color: black;
 }
 
 #ContentBody {
 	border: 2px solid black;
 	background-color: white;
-	width: 90%;
-	margin-left: auto;
-	margin-right: auto;
+	width: 60%;
+	margin: auto;
+	padding: 2vh 5vw;
+}
+
+#ContentBody h3 {
+	text-align: center;
+}
+
+#AboutMe img {
+	height: 50vh;
+	width: auto;
+}
+
+footer {
+	text-align: center;
+	font-size: 12px;
+	color: black;
+	margin-bottom: 5vh;
 }
