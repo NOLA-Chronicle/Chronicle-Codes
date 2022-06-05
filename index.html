@@ -4,43 +4,34 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<head>
 		<title>Chronicle Codes Website</title>
-		<link rel="stylesheet" type="text/css" href="stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="Styles/stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="Styles/NavBar_style.css">
+		<link rel="stylesheet" type="text/css" href="Styles/Footer_style.css">
+		<link rel="stylesheet" type="text/css" href="Styles/index_style.css">
+		<script src="https://www.w3schools.com/lib/w3.js"></script>
 	</head>
 	<body>
-		<h1 id="PageTitle">Chronicle Codes</h1>
-		<div id= "NavBarContainer">
-			<hr>
-			<ul id="NavBar">
-				<li><a href= "UnderConstruction.html">Discord Bots</a></li>
-				<li><a href= "UnderConstruction.html">Mobile Applications</a></li>
-				<li><a href= "Resume.html">Resume</a></li>
-				<li><a href= "UnderConstruction.html">Privacy Policy</a></li>
-				<li><a href="TermsAndConditions.html">Terms & Conditions</a></li>
-			</ul>
-			<hr>
-		</div>
+		<h1 id="PageTitle"><a href="index.html">Chronicle Codes</a></h1>
+		<div id= "NavBarContainer" w3-include-html="NavBar.html"></div>
 		</br>
 		<div id="ContentBody">
 			<div id="SitePurpose">
-				<h3>Site Purpose</h3>
+				<h2>Site Purpose</h2>
 				<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspThis site serves as the domain for the software developing entity that is Chronicle Codes Application Development. The site is a gallery for various projects I have worked on and wish to advertise or show off. I primarily focus on mobile apps for Android OS and bots for various sites including Twitter, Tik Tok, Reddit, and the like.</p>
 			</div>
 			
 			<div id="AboutMe">
-				<h3>About Me</h3>
+				<h2>About Me</h2>
 				<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMy name is Ryan Johnson. I have a BS in Computer Information Systems and I'm currently pursuing a MS in the same degree of study. I'm a software applications and web developer and love to work on various projects ranging in programming language and difficulty. My hobbies are all over the place, but my first <strong>BIG</strong> hobby was web development, which then grew to software development with C++ and Java. Today, my expertise also includes VB.NET, C#, Python, and Robotic Process Automation work. I hope to hone my skills enough to develop a marketable video game. Thank you for visiting my site, and I hope you enjoy!</p>
 				<p style="text-align: center;">
 					<img src="Resources/Ryan Johnson.jpg" alt="The author of this site, Ryan Johnson"/>
 				</p>
 			</div>
 		</div>
-		
+		<div w3-include-html="Footer.html"></div>
+		<script>
+			w3.includeHTML();
+		</script>
 	</body>
-	<footer>
-		<p><a href= "UnderConstruction.html">Privacy</a> | <a href= "UnderConstruction.html">Terms</a></p>
-		<p>Owner: Ryan Johnson</p>
-		<p>© 2022 Chronicle Applications. All rights reserved.</p>
-		<p>Email: ChronicleApplications@gmail.com</p>
-		<p>Phone: (413) 471-4579</p>
-	</footer>
+	
 </html>

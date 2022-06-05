@@ -1,0 +1,14 @@
+html {
+	background-color: Salmon;
+}
+
+body {
+	background-color: inherit;
+}
+
+#ContentBody {
+	margin: 3vh 20vw;
+	padding: 3vh 5vw;
+	background-color: white;
+	border: 1px solid black;
+}

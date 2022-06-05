@@ -3,16 +3,22 @@
 	<meta charset="UTF-8">
 	<head>
 		<title>Chronicle Codes | Resume</title>
-		<link rel="stylesheet" type="text/css" href="Resume_style.css"/>
+		<link rel="stylesheet" type="text/css" href="Styles/stylesheet.css"/>
+		<link rel="stylesheet" type="text/css" href="Styles/NavBar_style.css">
+		<link rel="stylesheet" type="text/css" href="Styles/Footer_style.css">
+		<link rel="stylesheet" type="text/css" href="Styles/Resume_style.css"/>
+		<script src="https://www.w3schools.com/lib/w3.js"></script>
 	</head>
 	<body>
-		<header>
-			<h1>Ryan Johnson</h1>
-			<p>(504) 756-1125</p>
-			<p>rpjohnson0621@gmail.com</p>
-			<p>307A Poete St, Natchitoches, LA, 71457</p>
-		</header>
+		<h1 id="PageTitle"><a href="index.html">Chronicle Codes</a></h1>
+		<div id= "NavBarContainer" w3-include-html="NavBar.html"></div>
 		<div id="ContentBody">
+			<header>
+				<h1>Ryan Johnson</h1>
+				<p>(504) 756-1125</p>
+				<p>rpjohnson0621@gmail.com</p>
+				<p>307A Poete St, Natchitoches, LA, 71457</p>
+			</header>
 			<h2>Profile</h2>
 			<p>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAmbitious learner, who’s highly adaptive towards various work environments and diverse work teams. Strong communication and leadership skills to better interpret ideas from all angles possible to achieve satisfactory results, while working towards a common goal. I am also an Eagle Scout.</p>
 			<hr>
@@ -110,14 +116,11 @@
 				<li>Minor in Business Administration</li>
 			</ul>
 			</br>
+			
 		</div>
-		<footer>
-		<hr>
-			<p><a href= "UnderConstruction.html">Privacy</a> | <a href= "UnderConstruction.html">Terms</a></p>
-			<p>Owner: Ryan Johnson</p>
-			<p>© 2022 Chronicle Applications. All rights reserved.</p>
-			<p>Email: ChronicleApplications@gmail.com</p>
-			<p>Phone: (413) 471-4579</p>
-		</footer>
+		<div w3-include-html="Footer.html"></div>
+		<script>
+			w3.includeHTML();
+		</script>
 	</body>
 </html>
