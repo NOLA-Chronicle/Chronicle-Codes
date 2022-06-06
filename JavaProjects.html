@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<head>
+		<title>Chronicle Codes | Java Projects</title>
+		<link rel="stylesheet" type="text/css" href="Styles/stylesheet.css">
+		<link rel="stylesheet" type="text/css" href="Styles/NavBar_style.css">
+		<link rel="stylesheet" type="text/css" href="Styles/Footer_style.css">
+		<link rel="stylesheet" type="text/css" href="Styles/JavaProjects_style.css">
+		<script src="https://www.w3schools.com/lib/w3.js"></script>
+		
+		<script>
+			function revealInfo(id) {
+				document.getElementById(id).style.display = "block";
+				document.getElementById(id+'MoreInfo').style.display = "none";
+				
+			}
+			
+			function hideInfo(id) {
+				document.getElementById(id).style.display = "none";
+				document.getElementById(id+'MoreInfo').style.display = "block";
+				
+			}
+		</script>
+	</head>
+	<body>
+		<h1 id="PageTitle"><a href="index.html">Chronicle Codes</a></h1>
+		<div id= "NavBarContainer" w3-include-html="NavBar.html"></div>
+		</br>
+		<div id="ContentBody">
+			<table class="ProjectCard">
+				<tr>
+					<th><img src="JavaProjects\ConwayGameOfLife\Gospers_glider_gun.gif" alt="John Conway's Game of Life"/><h2>John Conway's Game of Life</h2></th>
+				</tr>
+				<tr>
+					<td><h3>Description</h3></td>
+				</tr>
+				<tr>
+					<td>This project was my first large, long-term java project to implement various things I learned throughout school and self-taught courses. This project will possibly be under development for the future as I think of things to add to the project. Conway's Game of Life is a fun, 0-person game run on the basis of cellular automata. More information can be found on the wikipedia <a href="https://en.wikipedia.org/wiki/Conway%27s_Game_of_Life" target="_blank">here</a>.<br>
+					<br>
+					You can find the link to the github repository <a href="https://github.com/NOLA-Chronicle/JohnConwayGoL.git" target="_blank">here</a>.
+					</td>
+				</tr>
+			</table>
+			<p id="JCGOLMoreInfo" class="moreInfoReveal" onclick="revealInfo('JCGOL')">Click here for more info...</p>
+			<div id="JCGOL" class="MoreInfo">
+				<div w3-include-html="JavaProjects\ConwayGameOfLife\JCGOL.html"></div>
+				<p id="JCGOLLessInfo" class="moreInfoHide" onclick="hideInfo('JCGOL')">Click here to hide...</p>
+			</div>
+			<hr>
+			
+			<table class="ProjectCard">
+				<tr>
+					<th><img src="JavaProjects\Spirograph\Spirograph.jpg" alt="Image from my spirograph project"/><h2>3-Segment Spirograph</h2></th>
+				</tr>
+				<tr>
+					<td><h3>Description</h3></td>
+				</tr>
+				<tr>
+					<td>I worked on this project, as I did many others, in high school. I see it as a form of digital art, however the concept was not invented by myself. Spirographs create geometric drawings using sine and cosine formulas to plot points/lines on a coordinate plane. More info can be found <a href="https://en.wikipedia.org/wiki/Spirograph" target="_blank">here</a>. They are also somewhat closely related to Fourier transforms, an advanced mathematical concept. More info on those can be found <a href="https://en.wikipedia.org/wiki/Fourier_transform" target="_blank">here</a>.<br>
+					<br>
+					You can find the link to the github repository <a href="https://github.com/NOLA-Chronicle/Spirograph.git" target="_blank">here</a>.
+					</td>
+				</tr>
+			</table>
+			<p id="SpiroMoreInfo" class="moreInfoReveal" onclick="revealInfo('Spiro')">Click here for more info...</p>
+			<div id="Spiro" class="MoreInfo">
+				<div w3-include-html="JavaProjects\Spirograph\Spiro.html"></div>
+				<p id="SpiroLessInfo" class="moreInfoHide" onclick="hideInfo('Spiro')">Click here to hide...</p>
+			</div>
+			<hr>
+		</div>
+		<div w3-include-html="Footer.html"></div>
+		<script>
+			w3.includeHTML();
+		</script>
+	</body>
+</html>

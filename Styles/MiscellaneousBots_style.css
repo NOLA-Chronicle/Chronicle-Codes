@@ -1,0 +1,18 @@
+ .BotCard {
+	
+}
+
+.BotCard th {
+	text-align: left;
+	display: inline-block;
+}
+
+.BotCard th img {
+	float: left;
+	width: 20%;
+	height: auto;
+}
+
+.BotCard th h2, .BotCard th h4 {
+	margin-left: 12vw;
+}

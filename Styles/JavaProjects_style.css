@@ -1,0 +1,44 @@
+.ProjectCard {
+	
+}
+
+.ProjectCard th {
+	text-align: left;
+	width: 100%;
+	display: block;
+}
+
+.ProjectCard th img {
+	float: left;
+	width: 30%;
+	height: auto;
+	border: 2px solid black;
+}
+
+.ProjectCard th h2 {
+	float: left;
+	margin-left: 2vw;
+}
+
+.moreInfoReveal, .moreInfoHide {
+	font-weight: bold;
+	color: darkslateblue;
+}
+
+.moreInfoReveal:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.moreInfoHide:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+
+.MoreInfo {
+	display: none;
+}
+
+#JCGOL {
+	
+}
