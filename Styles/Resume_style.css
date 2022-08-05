@@ -13,13 +13,17 @@ h3 {
 	
 }
 
+#Header {
+	width: 100%;
+}
+
 #Skills {
-	margin: auto;
+	margin: 0vh auto;
 	width: 85%;
 }
 
-#Skills th {
-	border-bottom: 3px dotted black;
+#Skills ul {
+	margin: 0vh auto;
 }
 
 #Education {
@@ -28,10 +32,6 @@ h3 {
 
 #Education td {
 	font-size: 18px;
-}
-
-header {
-	text-align: center;
 }
 
 footer {
@@ -44,4 +44,16 @@ footer {
 .WorkDate {
 	font-size: 18px;
 	margin-top: -20px;
+}
+
+.Left {
+	text-align: left;
+}
+
+.Right {
+	text-align: right;
+}
+
+.DEBUG {
+	border: 1px solid black;
 }
